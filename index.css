@@ -228,8 +228,8 @@ ul.menu-mobile a {
   justify-content: center;
 }
 .qs {
-  padding-left: 10em;
-  padding-right: 10em;
+  padding-left: 5%;
+  padding-right: 5%;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -252,7 +252,7 @@ ul.menu-mobile a {
   margin: 10px;
 }
 
-@media screen and (min-width: 520px) {
+@media screen and (min-width: 480px) {
   h1 {
     font-size: 36px;
     width: 100%;
@@ -416,6 +416,7 @@ p.logo {
   line-height: 1.7em;
   padding:0px 0px 10px 10px;
   text-align:left;
+  width:100%;
 }
 
 /* TOP menu settings */
@@ -429,7 +430,7 @@ p.logo {
 }
 ul.menu-mobile li {
   background: #fffaf4;
-  
+  width: 100%;
 }
 ul.menu-mobile li :active {
   background: #18ccae;
