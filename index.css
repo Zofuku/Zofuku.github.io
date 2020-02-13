@@ -153,7 +153,6 @@ div.top:before {
 }
 
 #service .program {
-  font-family: gothic;
   font-weight: 600;
   font-size: 20px;
   text-align: center;
@@ -228,8 +227,8 @@ ul.menu-mobile a {
   justify-content: center;
 }
 .qs {
-  padding-left: 5em;
-  padding-right: 5em;
+  padding-left: 10em;
+  padding-right: 10em;
   padding-top: 10px;
   padding-bottom: 10px;
 }
