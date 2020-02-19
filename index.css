@@ -494,7 +494,7 @@ canvas{
 
 /* For mobile */
 /* 〜ー 以上はここを読み込む */
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 420px) {
 
   h1 {
     font-size: 28px;
