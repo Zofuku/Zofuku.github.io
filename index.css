@@ -416,6 +416,7 @@ p.logo {
   list-style: url("https://ipfs.io/ipfs/QmT9SJG2N8NiPmiHEf28cWJR3j7K1y3LgmNtvPxHu25Jth");
   display:list-item;
   gap:normal;
+  white-space: nowrap;
   line-height: 1.7em;
   padding:0px 0px 10px 10px;
   text-align:left;
