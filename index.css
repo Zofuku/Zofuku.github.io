@@ -107,12 +107,10 @@ div.top:before {
   justify-content: center;
   height: 20%;
 }
-
 .apply-btn {
   height: 10%;
   align-self: center;
 }
-
 .apply-btn2 {
   display: flex;
   justify-content: center;
@@ -254,7 +252,7 @@ ul.menu-mobile a {
 
 @media screen and (min-width: 560px) {
   h1 {
-    align-items: center;
+    text-align: center;
     font-size: 32px;
     width: 100%;
   }
