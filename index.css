@@ -112,7 +112,7 @@ div.top:before {
   width: 100%;
 }
 .apply-btn {
-  height: 10%;
+  /*height: 10%;*/
   width: 100%;
   display: flex;
   justify-content: center;
