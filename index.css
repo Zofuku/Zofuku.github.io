@@ -93,11 +93,11 @@ div.top:before {
   right: 0px;
   bottom: 0px;
   z-index: -1;
-} 
+}
 
 
 .concept {
-  display: flex;
+  /*display: flex;*/
   justify-content: center;
   align-items: center;
   height: 50%;
@@ -291,7 +291,7 @@ ul.menu-mobile a {
     margin-top: 30px;
     align-items: start;
   }
-  
+
   .company-info {
     margin-top: 0px;
     margin-left: 40px;
@@ -359,7 +359,7 @@ ul.menu-mobile a {
 .bg-D{
   width: 80px;
   height: 80px;
-  border-radius: 50%; 
+  border-radius: 50%;
 }
 .bg-D img {
   width: 80px;
@@ -372,7 +372,7 @@ ul.menu-mobile a {
   height: 256px;
   background: url('img/check_circle-24px.svg.net.png');
 }
-/* 
+/*
 .bg-facebook {
   width: 48px;
   height: 48px;
