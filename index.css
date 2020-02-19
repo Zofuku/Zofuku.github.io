@@ -171,6 +171,7 @@ ul.menu {
 ul.menu li a {
   padding: 2px;
   color:#666;
+  width: 100%;
 }
 ul.menu-mobile {
   margin: 0;
