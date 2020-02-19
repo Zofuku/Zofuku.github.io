@@ -30,6 +30,7 @@ h3 {
   margin: 4px;
   font-weight: 600;
   color: hsl(0, 0%, 30%);
+  width: 100%;
 }
 hr {
   margin-left: 80px;
@@ -178,7 +179,6 @@ ul.menu {
 ul.menu li a {
   padding: 2px;
   color:#666;
-  width: 100%;
 }
 ul.menu-mobile {
   margin: 0;
