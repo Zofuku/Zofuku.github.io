@@ -108,6 +108,7 @@ div.top:before {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   width: 100%;
   height: 300px;
 }
@@ -115,10 +116,15 @@ div.top:before {
 .apply-btn {
   height: 10%;
   display: flex;
-  justify-content: center;
   align-items: center;
   align-self: center;
 }
+.apply-btn button {
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+}
+
 
 .apply-btn2 {
   display: flex;
