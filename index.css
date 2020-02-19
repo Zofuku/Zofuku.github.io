@@ -96,22 +96,27 @@ div.top:before {
 }
 
 .service-name {
+
   justify-content: center;
   align-items: center;
   height: 30%;
 }
 .concept h1{
+
   justify-content: center;
   align-items: center;
   height: 30%;
 }
 
 .top {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 300px;
 }
 
 .apply-btn {
+
   width: 100%;
   height: 10%;
   justify-content: center;
