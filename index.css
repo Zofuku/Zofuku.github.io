@@ -100,12 +100,14 @@ div.top:before {
   justify-content: center;
   align-items: center;
   height: 30%;
+  width: 100%;
 }
 .concept h1{
   display: flex;
   justify-content: center;
   align-items: center;
   height: 20%;
+  width: 100%;
 }
 
 .top {
@@ -114,8 +116,8 @@ div.top:before {
 }
 
 .apply-btn {
+  width: 100%;
   height: 10%;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
