@@ -112,8 +112,11 @@ div.top:before {
 }
 .apply-btn {
   height: 10%;
-  align-self: center;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
 }
 .apply-btn2 {
   display: flex;
@@ -170,10 +173,10 @@ ul.menu {
   list-style: none;
   font-size: 10px;
   width:100%;
-  height: 60px;
+  /*height: 60px;*/
 }
 ul.menu li a {
-  padding: 0;
+  padding: 2px;
   color:#666;
   width: 100%;
 }
