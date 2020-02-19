@@ -105,7 +105,7 @@ div.top:before {
 .concept {
   display: flex;
   justify-content: center;
-  height: 20%;
+  height: 0%;
 }
 .apply-btn {
   height: 10%;
