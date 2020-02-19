@@ -261,7 +261,7 @@ ul.menu-mobile a {
   margin: 10px;
 }
 
-@media screen and (min-width: 400px) {
+@media screen and (min-width: 768px) {
   h1 {
     font-size: 28px;
   }
