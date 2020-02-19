@@ -17,7 +17,6 @@ p {
 h1 {
   text-align: center;
   font-size: 20px;
-  text-align: center;
   width: 70%;
   color: #000000;
 }
@@ -88,17 +87,8 @@ div.top:before {
   z-index: -1;
 }
 .top {
-  display: flex;
   width: 100%;
   height: 300px;
-}
-.service-name {
-  justify-content: center;
-  height: 30%;
-}
-.concept h1{
-  justify-content: center;
-  height: 30%;
 }
 .menubar {
   display: flex;
@@ -106,6 +96,15 @@ div.top:before {
   height: 20%;
   margin-right: 20px;
 }
+.service-name {
+  justify-content: center;
+  height: 30%;
+}
+.concept h1{
+  justify-content: center;
+  height: 20%;
+}
+
 .apply-btn {
   height: 10%;
   display: inline-flex;
