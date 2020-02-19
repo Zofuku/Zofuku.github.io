@@ -87,6 +87,8 @@ div.top:before {
   z-index: -1;
 }
 .top {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 300px;
 }
