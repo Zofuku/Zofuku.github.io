@@ -114,13 +114,13 @@ div.top:before {
 }
 
 .apply-btn {
-  /*height: 10%;*/
+  height: 10%;
   display: inline-flex;
   align-items: center;
   align-self: center;
 }
 .apply-btn button {
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   align-self: center;
 }
