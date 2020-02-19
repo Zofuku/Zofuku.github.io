@@ -261,65 +261,6 @@ ul.menu-mobile a {
   margin: 10px;
 }
 
-@media screen and (min-width: 768px) {
-  h1 {
-    font-size: 28px;
-  }
-  h2{
-    font-size: 22px;
-    text-align: center;
-  }
-
-  ul.menu {
-    display: flex;
-  }
-  ul.menu-mobile {
-    display: none;
-  }
-  .service-desc {
-    text-align: center;
-    max-width: 50%;
-    padding-bottom: 10px;
-  }
-  .service-desc h3 {
-    text-align: center;
-  }
-  .service-desc p {
-    text-align: left;
-  }
-  .examples {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: stretch;
-    padding-left: 40px;
-    padding-right: 40px;
-  }
-  .function-desc {
-    margin-top: 0px;
-    text-align: left;
-    max-width: 50%;
-  }
-  .function-item {
-    margin-top: 30px;
-    align-items: start;
-  }
-
-  .company-info {
-    margin-top: 0px;
-    margin-left: 40px;
-  }
-  .company-wrap {
-    align-items: center;
-  }
-  .responsive-align {
-    flex-direction: row;
-  }
-  .reverse {
-    flex-direction: row-reverse;
-  }
-}
-
 /* Images Icons */
 .sns-icon {
   margin-left: 12px;
@@ -532,7 +473,7 @@ tr {
 
 /* Background CSS animation */
 #canvas { position:fixed;    top:0; left:0; width:100%; height:100%; }
-#body   { position:absolute; top:0; left:0; }
+#body   { position:absolute; top:0; left:0; max-width: 1020px; }
 *{
   margin: 0;
   padding: 0;
@@ -544,4 +485,64 @@ html, body {
 canvas{
   height: 100%;
   width: 100%;
+}
+
+/* For mobile */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+  h2{
+    font-size: 22px;
+    text-align: center;
+  }
+
+  ul.menu {
+    display: flex;
+  }
+  ul.menu-mobile {
+    display: none;
+  }
+  .service-desc {
+    text-align: center;
+    max-width: 50%;
+    padding-bottom: 10px;
+  }
+  .service-desc h3 {
+    text-align: center;
+  }
+  .service-desc p {
+    text-align: left;
+  }
+  .examples {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .function-desc {
+    margin-top: 0px;
+    text-align: left;
+    max-width: 50%;
+  }
+  .function-item {
+    margin-top: 30px;
+    align-items: start;
+  }
+
+  .company-info {
+    margin-top: 0px;
+    margin-left: 40px;
+  }
+  .company-wrap {
+    align-items: center;
+  }
+  .responsive-align {
+    flex-direction: row;
+  }
+  .reverse {
+    flex-direction: row-reverse;
+  }
 }
