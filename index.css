@@ -95,18 +95,17 @@ div.top:before {
   z-index: -1;
 }
 
-
-.concept {
+.service-name {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 30%;
 }
-.concept .p{
+.concept h1{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20%;
+  height: 30%;
 }
 
 .top {
