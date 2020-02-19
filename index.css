@@ -254,9 +254,12 @@ ul.menu-mobile a {
   margin: 10px;
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 480px) {
   h1 {
     font-size: 32px;
+  }
+  h2{
+    font-size: 28px;
   }
   ul.menu {
     display: flex;
