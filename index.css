@@ -23,7 +23,7 @@ h1 {
 h2 {
   text-align: center;
   color: #333;
-  width: 100%;
+  width: 80%;
   font-size: 20px
 }
 h3 {
@@ -102,13 +102,13 @@ div.top:before {
 .service-name {
   display: flex;
   justify-content: center;
-  height: 20%;
+  height: 25%;
   width: 100%;
 }
 .concept {
   display: flex;
   justify-content: center;
-  height: 20%;
+  height: 25%;
   width: 100%;
 }
 .apply-btn {
