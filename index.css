@@ -173,7 +173,7 @@ ul.menu {
   list-style: none;
   font-size: 10px;
   width: 600px;
-  height: 64px;
+  height: 60px;
 }
 ul.menu li a {
   padding: 2px;
@@ -200,8 +200,8 @@ ul.menu-mobile li :active {
   background: #14b5db;
 }
 ul.menu-mobile a {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   height: 100%;
   width: 100%;
   display: block;
