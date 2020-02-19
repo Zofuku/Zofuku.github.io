@@ -109,8 +109,11 @@ div.top:before {
 .concept {
   display: flex;
   justify-content: center;
-  height: 25%;
+  height: 15%;
   width: 100%;
+}
+.concept h2 {
+  letter-spacing: normal;
 }
 .apply-btn {
   /*height: 10%;*/
