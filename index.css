@@ -169,7 +169,7 @@ ul.menu {
   margin: 0 ;
   padding: 0px;
   display: none;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   list-style: none;
   font-size: 10px;
