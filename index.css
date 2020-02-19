@@ -23,7 +23,7 @@ h1 {
 h2 {
   text-align: center;
   color: #333;
-  width: 70%;
+  width: 100%;
 }
 h3 {
   margin: 4px;
@@ -165,11 +165,11 @@ ul.menu {
   align-items: center;
   list-style: none;
   font-size: 10px;
-  width: 500px;
+  width:auto;
   height: 64px;
 }
 ul.menu li a {
-  padding: 2px;
+  padding: 2px 2px 2px 0;
   color:#666;
   width: 100%;
 }
