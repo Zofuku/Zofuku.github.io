@@ -87,7 +87,6 @@ div.top:before {
   z-index: -1;
 }
 .top {
-  display: flex;
   width: 100%;
   height: 300px;
 }
@@ -99,10 +98,12 @@ div.top:before {
   margin-right: 20px;
 }
 .service-name {
+  display: flex;
   justify-content: center;
   height: 30%;
 }
-.concept{
+.concept {
+  display: flex;
   justify-content: center;
   height: 20%;
 }
