@@ -96,13 +96,11 @@ div.top:before {
 }
 
 .service-name {
-
   justify-content: center;
   align-items: center;
   height: 30%;
 }
 .concept h1{
-
   justify-content: center;
   align-items: center;
   height: 30%;
@@ -118,6 +116,11 @@ div.top:before {
 .apply-btn {
   width: 100%;
   height: 10%;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.apply-btn button {
   justify-content: center;
   align-items: center;
   align-self: center;
