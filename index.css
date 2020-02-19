@@ -102,13 +102,13 @@ div.top:before {
 .service-name {
   display: flex;
   justify-content: center;
-  height: 30%;
+  height: 40%;
   width: 100%;
 }
 .concept {
   display: flex;
   justify-content: center;
-  height: 30%;
+  height: 20%;
   width: 100%;
 }
 .apply-btn {
@@ -173,13 +173,20 @@ ul.menu {
   align-items: center;
   list-style: none;
   font-size: 10px;
-  width:100%;
-  /*height: 60px;*/
+  width: 600px;
+  height: auto;
 }
 ul.menu li a {
   padding: 2px;
   color:#666;
   width: 100%;
+}
+.menu-mobiles {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 ul.menu-mobile {
   margin: 0;
