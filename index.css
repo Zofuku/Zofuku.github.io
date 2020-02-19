@@ -185,6 +185,7 @@ ul.menu-mobile {
   margin: 0;
   padding: 0;
   display: flex;
+  align-items:flex-end;
   justify-content: center;
   align-items: center;
   list-style: none;
@@ -266,9 +267,7 @@ ul.menu-mobile a {
   h2{
     font-size: 20px;
   }
-  .apply-btn {
-    margin-bottom: 10px;
-  }
+
   ul.menu {
     display: flex;
   }
