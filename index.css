@@ -96,13 +96,11 @@ div.top:before {
 }
 
 .service-name {
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 30%;
 }
 .concept h1{
-  display: flex;
   justify-content: center;
   align-items: center;
   height: 20%;
@@ -116,7 +114,6 @@ div.top:before {
 
 .apply-btn {
   height: 10%;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
