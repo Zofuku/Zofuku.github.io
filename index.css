@@ -179,6 +179,7 @@ ul.menu {
 ul.menu li a {
   padding: 2px;
   color:#666;
+  width: 100%;
 }
 ul.menu-mobile {
   margin: 0;
@@ -259,7 +260,7 @@ ul.menu-mobile a {
   margin: 10px;
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 600px) {
   h1 {
     font-size: 24px;
   }
