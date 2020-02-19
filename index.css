@@ -165,7 +165,7 @@ div.top:before {
   margin-bottom: 5px;
 }
 ul.menu {
-  margin: 0 0 0 20px;
+  margin: 0 ;
   padding: 0px;
   display: none;
   justify-content: space-between;
@@ -173,7 +173,7 @@ ul.menu {
   list-style: none;
   font-size: 10px;
   width: 600px;
-  height: 60px;
+  height: 64px;
 }
 ul.menu li a {
   padding: 2px;
