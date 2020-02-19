@@ -94,15 +94,18 @@ div.top:before {
   display: flex;
   justify-content: flex-end;
   height: 20%;
+  width: 100%;
   margin-right: 20px;
 }
 .service-name {
   justify-content: center;
   height: 30%;
+  width: 100%;
 }
 .concept h1{
   justify-content: center;
   height: 20%;
+  width: 100%;
 }
 
 .apply-btn {
