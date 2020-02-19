@@ -101,13 +101,11 @@ div.top:before {
   display: flex;
   justify-content: center;
   height: 30%;
-  width: 100%;
 }
 .concept {
   display: flex;
   justify-content: center;
-  height: 30%;
-  width: 100%;
+  height: 20%;
 }
 .apply-btn {
   height: 10%;
