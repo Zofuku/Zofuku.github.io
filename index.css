@@ -116,11 +116,12 @@ div.top:before {
 .apply-btn {
   height: 10%;
   display: inline-flex;
+  flex-direction: column;
   align-items: center;
   align-self: center;
 }
 .apply-btn button {
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   align-self: center;
 }
