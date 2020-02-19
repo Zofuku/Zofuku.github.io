@@ -18,7 +18,7 @@ h1 {
   text-align: center;
   font-size: 20px;
   text-align: center;
-  width: 70%;
+  width: 100%;
   color: #000000;
 }
 h2 {
@@ -96,15 +96,16 @@ div.top:before {
 }
 
 .service-name {
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 30%;
 }
 .concept h1{
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 20%;
-  margin-bottom: 10px;
 }
 
 .top {
@@ -114,6 +115,7 @@ div.top:before {
 
 .apply-btn {
   height: 10%;
+  display: flex;
   justify-content: center;
   align-items: center;
 }
