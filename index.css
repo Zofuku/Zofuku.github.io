@@ -200,8 +200,8 @@ ul.menu-mobile li :active {
   background: #14b5db;
 }
 ul.menu-mobile a {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 14px;
+  padding-bottom: 14px;
   height: 100%;
   width: 100%;
   display: block;
