@@ -95,9 +95,9 @@ div.top:before {
 .menubar {
   display: flex;
   justify-content: flex-end;
-  height: 20%;
+  height: 60px;
   margin-right: 20px;
-  width: 70%;
+  width: 100%;
 }
 .service-name {
   display: flex;
