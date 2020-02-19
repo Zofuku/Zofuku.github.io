@@ -96,9 +96,7 @@ div.top:before {
   display: flex;
   justify-content: flex-end;
   height: 60px;
-  padding-right: 20px;
-  /*margin-right: 40px;*/
-  /*width: 100%;*/
+  width: 100%;
 }
 .service-name {
   display: flex;
@@ -167,7 +165,7 @@ div.top:before {
   margin-bottom: 5px;
 }
 ul.menu {
-  margin: 0;
+  margin: 0 0 0 20px;
   padding: 0px;
   display: none;
   justify-content: space-between;
