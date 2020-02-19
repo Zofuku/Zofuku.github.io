@@ -74,13 +74,6 @@ a:visited {
   }
 
 /* div Elements align */
-.menubar {
-  display: flex;
-  justify-content: flex-end;
-  height: 20%;
-  width: 100%
-  margin-right: 20px;
-}
 
 div.top:before {
   background-image: url('');
@@ -104,7 +97,13 @@ div.top:before {
   justify-content: center;
   height: 30%;
 }
-
+.menubar {
+  display: flex;
+  justify-content: flex-end;
+  height: 20%;
+  width: 100%
+  margin-right: 20px;
+}
 .top {
   display: flex;
   flex-direction: column;
@@ -177,7 +176,7 @@ ul.menu {
   margin: 0;
   padding: 0px;
   display: none;
-  justify-content: space-around;
+  justify-content: flex-end;
   align-items: center;
   list-style: none;
   font-size: 10px;
