@@ -103,10 +103,11 @@ div.top:before {
 .service-name {
   display: flex;
   justify-content: center;
-  height: 25%;
+  padding-top: 5%;
+  height: 35%;
   width: 100%;
 }
-.concept {
+/*.concept {
   display: flex;
   justify-content: center;
   height: 15%;
@@ -114,7 +115,7 @@ div.top:before {
 }
 .concept h2 {
   letter-spacing: normal;
-}
+}*/
 .apply-btn {
   /*height: 10%;*/
   width: 100%;
