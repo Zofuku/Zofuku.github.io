@@ -113,7 +113,6 @@ div.top:before {
 }
 .apply-btn {
   /*height: 10%;*/
-  margin-bottom: 10px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -266,6 +265,9 @@ ul.menu-mobile a {
   }
   h2{
     font-size: 20px;
+  }
+  .apply-btn {
+    margin-bottom: 10px;
   }
   ul.menu {
     display: flex;
