@@ -256,9 +256,11 @@ ul.menu-mobile a {
 @media screen and (min-width: 480px) {
   h1 {
     font-size: 32px;
+    width: auto;
   }
   h2{
     font-size: 28px;
+    width: auto;
   }
   ul.menu {
     display: flex;
