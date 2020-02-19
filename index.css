@@ -452,7 +452,7 @@ ul.menu-mobile li :active {
     font-weight: 700;
     position: relative;
     width: 330px;
-    height: 66px;
+    height: 60px;
     text-align: center;
     cursor: default;
   }
