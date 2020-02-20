@@ -149,13 +149,10 @@ div.top:before {
   margin-left: 10px;
   margin-right: 10px;
   padding: 20px;
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,250,244);
   box-shadow: 2px 4px 16px rgba(0,0,0,0.2);
   flex-basis: 45%;
   line-height: 2em;
-}
-.si-back {
-  background-color: rgba(255,250,244);
 }
 
 .type {
@@ -398,7 +395,7 @@ ul.menu-mobile a {
 }
 
 .card {
-  background: rgba(255,250,244, 0.5);
+  background: rgba(255,250,244);
 }
 .require {
   background: #fffaf4;
