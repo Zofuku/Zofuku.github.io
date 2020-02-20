@@ -143,23 +143,28 @@ div.top:before {
   flex-basis: 30%;
 }
 .difference-card{
-  width: 80%;
+  width: 60%;
   margin-top: 20px;
   margin-bottom: 20px;
   margin-left: 10px;
   margin-right: 10px;
   padding: 20px;
-  background-color: rgb(255,255 , 250);
-  box-shadow: 2px 4px 16px rgba(0,0,0,0.2);
-  flex-basis: 40%;
+  background-color: rgba(255,255,250,0.7);
+  box-shadow: 2px 4px 16px rgba(0,0,0,0.1);
+  flex-basis: 45%;
+  line-height: 2em;
 }
+.si-back {
+  background-color: rgba(255,255,250);
+}
+
 .type {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: 10px;
   color:hsl(171, 100%, 36%);
-  padding-top: 5px;
+  padding: 5px;
 }
 
 .require {
@@ -285,6 +290,12 @@ ul.menu-mobile a {
 .answer {
   margin-top: 0.5em;
 }
+.difference-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .company-wrap {
     margin-top: 40px;
@@ -387,7 +398,7 @@ ul.menu-mobile a {
 }
 
 .card {
-  background: #fffaf4;
+  background: rgba(255,255,244,0.8);
 }
 .require {
   background: #fffaf4;
@@ -563,6 +574,15 @@ canvas{
     align-items: stretch;
     padding-left: 40px;
     padding-right: 40px;
+  }
+  .difference-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
   .function-desc {
     margin-top: 0px;
