@@ -150,7 +150,8 @@ div.top:before {
   margin-left: 10px;
   margin-right: 10px;
   padding: 20px;
-  background-color: rgba(255,250,244);
+  background-color: #F0F5EC;
+  /* rgba(255,250,244); */
   box-shadow: 2px 4px 16px rgba(0,0,0,0.2);
   flex-basis: 45%;
   line-height: 2em;
@@ -400,10 +401,12 @@ ul.menu-mobile a {
 }
 
 .card {
-  background: rgba(255,250,244);
+  background: #F0F5EC;
+  /* rgba(255,250,244); */
 }
 .require {
-  background: #fffaf4;
+  background: #F0F5EC;
+  /* #fffaf4; */
 }
 ul.points {
   margin: 10px;
@@ -431,11 +434,12 @@ ul.points li {
   border-bottom: 0;
 }
 ul.menu-mobile li {
-  background: #fffaf4;
+  background: #F0F5EC;
+  /* #fffaf4; */
   width: 100%;
 }
 ul.menu-mobile li :active {
-  background: #18ccae;
+  background: #B4CF9E;
 }
 
 /* Button settings */
@@ -472,7 +476,8 @@ ul.menu-mobile li :active {
 #service,
 #function,
 #qanda {
-  background-color:#fffaf4;
+  /* background-color:#fffaf4; */
+  background-color: #F0F5EC;
 }
 
 div#service,
@@ -487,7 +492,8 @@ div#form {
   line-height: 1.7;
 }
 div#company {
-  background-color: #fffaf4;
+  /* background-color: #fffaf4; */
+  background-color: #F0F5EC;
   padding-top: 20px;
   padding-bottom: 20px;
 }
