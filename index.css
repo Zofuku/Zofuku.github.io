@@ -151,7 +151,6 @@ div.top:before {
   margin-right: 10px;
   padding: 20px;
   background-color: #F0F5EC;
-  /* rgba(255,250,244); */
   box-shadow: 2px 4px 16px rgba(0,0,0,0.2);
   flex-basis: 45%;
   line-height: 2em;
@@ -405,7 +404,7 @@ ul.menu-mobile a {
   /* rgba(255,250,244); */
 }
 .require {
-  background: #F0F5EC;
+  background: #fdfdfd;
   /* #fffaf4; */
 }
 ul.points {
