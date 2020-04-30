@@ -625,3 +625,13 @@ canvas{
     flex-direction: row-reverse;
   }
 }
+
+/* color */
+.marker {
+  background:linear-gradient(transparent 75%, #fff799 75%);
+  font-weight: 600;
+}
+.marker-b {
+  background:linear-gradient(transparent 75%, #bce2e8 75%);
+  font-weight: bolder;
+}
