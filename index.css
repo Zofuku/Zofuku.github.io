@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 /* Basic settings */
 body {
   margin: 0;
@@ -92,6 +92,7 @@ a:visited {
   }
 .center {
   align-self: center;
+  width: 100%;
 }
 
 
@@ -224,7 +225,7 @@ ul.menu li a {
 }
 
 ul.menu-mobile {
-  margin-top: 5%;
+  margin-top: 8%;
   padding: 0;
   display: flex;
   justify-content: center;
@@ -233,6 +234,7 @@ ul.menu-mobile {
   list-style: none;
   font-size: 9px;
   width: 100%;
+  background: #F0F5EC;
 }
 ul.menu-mobile li {
   width: 100%;
@@ -243,8 +245,8 @@ ul.menu-mobile li :active {
   background: #14b5db;
 }
 ul.menu-mobile a {
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   height: 100%;
   width: 100%;
   display: block;
@@ -441,7 +443,6 @@ ul.points li {
 }
 ul.menu-mobile li {
   background: #F0F5EC;
-  /* #fffaf4; */
   width: 100%;
 }
 ul.menu-mobile li :active {
@@ -549,6 +550,7 @@ tr {
 #body   {
   position:absolute; top:0; left:0;
   z-index: 100;
+  margin: 0;
 }
 *{
   margin: 0;
@@ -565,13 +567,64 @@ canvas{
 .main {
   margin-left: 10%;
   margin-right: 10%;
+
 }
 .form_back{
   background-color: #F0F5EC;
+  padding-bottom: 2em;
+  width: 100%;
+}
+.p-form {
+  width: 100%;
 }
 
 
 /* For mobile */
+@media screen and (max-width: 480px) {
+  #canvas {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: 1
+  }
+  #body   {
+    position:absolute; top:0; left:0;
+    z-index: 100;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+  }
+  canvas{
+    height: 100%;
+    width: 100%;
+  }
+  .main {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 0;
+  }
+  .form_back{
+    background-color: #F0F5EC;
+  }
+  .formContent {
+    width: 100%;
+  }
+  .column {
+    width: 100%;
+  }
+  iframe {
+    width: 100%l
+  }
+
+}
+
 /* 〜ー 以上はここを読み込む */
 @media screen and (min-width: 780px) {
 
@@ -663,6 +716,7 @@ canvas{
 /* form */
 .formTitle {
   margin-top: 2em;
+  width: 100%;
 }
 .need {
   font-size: 0.7em;
@@ -673,7 +727,7 @@ label {
 .formContent .p-formGroup{
   display: flex;
   flex-direction: column;
-
+  width: 100%;
 }
 .p-formGroup {
   margin-bottom: 2em;
@@ -683,6 +737,7 @@ label {
   margin-left: 1em;
 }
 .area {
+  width: 100%;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
@@ -727,5 +782,6 @@ input[type="submit"] {
   -webkit-appearance: none;
 }
 .submit{
+  width: 100%;
   margin: 2em;
 }
