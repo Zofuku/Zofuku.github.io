@@ -4,6 +4,7 @@
   <meta charset='utf-8'>
   <link rel="icon" type="image/x-icon" href="https://ipfs.io/ipfs/QmYyV3BGk1HGNgHWSZNU2AwVvJRjBXoPbf6a8CGcyFanWn">
   <link rel='stylesheet' type='text/css' href='index.css'>
+
   <title>Space Income（スペースインカム） 空きスペースを活用した分散型データセンター誘致サービス</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
   <meta name='description' content='SPACE INCOME(スペースインカム)は、空きスペースのオーナーと分散型データセンター事業者をマッチングするサービスです。物件情報を登録無料の当サービスに掲載いただくだけで、１坪だけでも有効活用できます。'>
@@ -44,7 +45,7 @@
           <li><a href='./index.html#example'>導入事例</a></li>
           <li><a href='./index.html#function'>開設まで３ステップ</a></li>
           <li><a href='./index.html#condition'>設置条件</a></li>
-          <li><a href='./index.html#qanda'>Q＆A</a></li>
+          <li><a href='./index.html#qanda'>Q&A</a></li>
           <li><a href='./index.html#difference'>シェアリングとのちがい</a></li>
           <li><a href='./index.html#company'>会社情報</a></li>
         </ul>
@@ -56,10 +57,9 @@
 
       <ul class='menu-mobile'>
         <li><a href='./index.html#service'>サービス</a></li>
-        <!-- <li><a href='#example'>導入事例</a></li> -->
         <li><a href='./index.html#function'>開設まで３ステップ</a></li>
         <li><a href='./index.html#condition'>設置条件</a></li>
-        <li><a href='./index.html#qanda'>FAQ</a></li>
+        <li><a href='./index.html#qanda'>Q&A</a></li>
         <li><a href='./index.html#difference'>シェアとの違い</a></li>
       </ul>
     </div>
@@ -134,7 +134,7 @@
             <div class="p-formGroup u-mb20">
               <label for="lock">上記の場所は、電子鍵を取り付けることは可能ですか？<span class="asterisk" >*</span></label>
               <p>カギは、原則弊社が電子ロックを取り付けいたします。</p>
-              <select class="selection" type="hidden" name="entry.2096814171" id="lock" required>
+              <select class=" selection" type="hidden" name="entry.2096814171" id="lock" required>
                 <option class="selection" value="">選択する</option>
                 <option class="selection" data-value="すでに電子ロックで希望する場所や部屋を施錠できます。" value="すでに電子ロックで希望する場所や部屋を施錠できます。">既に電子ロックあり</option>
                 <option class="selection" data-value="新たに鍵を取り付ければ、設置を希望する場所や部屋を施錠できます。" value="新たに鍵を取り付ければ、設置を希望する場所や部屋を施錠できます。">取り付ければ施錠可能</option>
@@ -258,7 +258,15 @@
       var submitted = false;
       var currentURL = window.location.href;
     </script>
-  <!-- js -->
+  <!-- dropdwon menu -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="js/Jquery.selmodal.js"></script>
+    <script type="text/javascript">
+    $(function(){
+    	$('select').selModal();
+    });
+    </script>
+  <!-- background -->
     <script type="text/javascript">
     var livePatern = {
       canvas: null,
