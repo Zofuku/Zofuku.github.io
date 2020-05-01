@@ -5,7 +5,7 @@ body {
   padding: 0;
   color: hsl(0, 0%, 40%);
   font-size: 15px;
-  font-family: "Noto Sans CJK JP","Hiragino Kaku Gothic Pro","ヒラギノ角ゴ Pro W3","メイリオ",Meiryo,"游ゴシック体","Yu Gothic",YuGothic,sans-serif;
+  font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   letter-spacing: 1.5px;
   line-height: 2.13;
 }
@@ -34,6 +34,11 @@ h3 {
   font-weight: 600;
   color: hsl(0, 0%, 30%);
   width: 100%;
+}
+.number {
+  font-weight: 200;
+  font-size: 1.5em;
+  font-family: Helvetica Neue;
 }
 hr {
   margin-left: 80px;
@@ -150,7 +155,7 @@ div.top:before {
   margin-left: 10px;
   margin-right: 10px;
   padding: 20px;
-  background-color: #F0F5EC;
+  background-color: #fdfdfd;
   box-shadow: 2px 4px 16px rgba(0,0,0,0.2);
   flex-basis: 45%;
   line-height: 2em;
@@ -159,10 +164,8 @@ div.top:before {
 .type {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   margin-top: 10px;
-  color:hsl(171, 100%, 36%);
-  padding: 5px;
 }
 
 .require {
@@ -283,11 +286,12 @@ ul.menu-mobile a {
 .qs {
   padding-left: 5%;
   padding-right: 5%;
-  padding-top: 10px;
+  padding-top: 2em;
   padding-bottom: 10px;
 }
 .question{
   font-weight: bold;
+  font-size:1.1em;
 }
 .answer {
   margin-top: 0.5em;
@@ -445,10 +449,10 @@ ul.menu-mobile li :active {
 .button_base {
     margin: 0;
     border: 0;
-    font-size: 15px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 600;
     position: relative;
-    width: 330px;
+    width: 300px;
     height: 60px;
     text-align: center;
     cursor: default;
@@ -475,7 +479,6 @@ ul.menu-mobile li :active {
 #service,
 #function,
 #qanda {
-  /* background-color:#fffaf4; */
   background-color: #F0F5EC;
 }
 
@@ -490,14 +493,16 @@ div#form {
   padding-bottom: 40px;
   line-height: 1.7;
 }
+div#form {
+  background-color: #fdfdfd;
+}
 div#company {
-  /* background-color: #fffaf4; */
   background-color: #F0F5EC;
   padding-top: 20px;
   padding-bottom: 20px;
 }
 tr {
-  border-bottom: solid 1px #9e9e9e;
+  border-bottom: solid 0.5px #9e9e9e;
 }
 
 /* footer settings */
@@ -572,7 +577,7 @@ canvas{
   .service-desc {
     text-align: center;
     max-width: 50%;
-    padding-bottom: 10px;
+    padding-bottom: 1.8em;
     justify-content: center;
     display: flex;
   }
@@ -632,6 +637,8 @@ canvas{
   font-weight: 600;
 }
 .marker-b {
-  background:linear-gradient(transparent 75%, #bce2e8 75%);
+  background:linear-gradient(transparent 75%, #bce2e8  75%);
   font-weight: bolder;
 }
+#bce2e8
+#F0F5EC
