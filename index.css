@@ -580,7 +580,7 @@ canvas{
 
 
 /* For mobile */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
   #canvas {
     position:fixed;
     top:0;
@@ -612,18 +612,23 @@ canvas{
   }
   .form_back{
     background-color: #F0F5EC;
+    color: #222222;
+  }
+  .form_center {
+    flex-direction: column;
+    align-items: center;
   }
   .formContent {
     width: 100%;
+    flex-direction: column;
+    align-items: center;
   }
-  iframe {
-    width: 100%l
-  }
+
   input[type="text"] {
     -webkit-appearance: none;
     border: 1px solid #ccc;
     height: 30px;
-    width: 100%;
+
     padding: 0em 0.7em;;
     font-size: 1em;
     font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
@@ -760,7 +765,7 @@ label {
   margin-left: 1em;
 }
 .area {
-  width: 100%;
+  width: 80%;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
