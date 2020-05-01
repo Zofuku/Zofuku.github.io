@@ -544,8 +544,12 @@ tr {
   left:0;
   width:100%;
   height:100%;
+  z-index: 1
 }
-#body   { position:absolute; top:0; left:0;}
+#body   {
+  position:absolute; top:0; left:0;
+  z-index: 100;
+}
 *{
   margin: 0;
   padding: 0;
@@ -559,8 +563,13 @@ canvas{
   width: 100%;
 }
 .main {
-  margin: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
+.form_back{
+  background-color: #F0F5EC;
+}
+
 
 /* For mobile */
 /* 〜ー 以上はここを読み込む */
@@ -652,6 +661,9 @@ canvas{
 
 
 /* form */
+.formTitle {
+  margin-top: 2em;
+}
 .need {
   font-size: 0.7em;
 }
@@ -715,5 +727,5 @@ input[type="submit"] {
   -webkit-appearance: none;
 }
 .submit{
-  margin-top: 2em;
+  margin: 2em;
 }

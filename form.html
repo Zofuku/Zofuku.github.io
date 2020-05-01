@@ -36,7 +36,26 @@
 
 </head>
 <body>
+<section id="body">
+  <div class='top align-vert'>
+    <div class='menubar'>
+      <ul class='menu'>
+        <li><a href='./index.html#service'>サービスの特徴</a></li>
+        <li><a href='./index.html#example'>導入事例</a></li>
+        <li><a href='./index.html#function'>開設まで３ステップ</a></li>
+        <li><a href='./index.html#condition'>設置条件</a></li>
+        <li><a href='./index.html#qanda'>Q＆A</a></li>
+        <li><a href='./index.html#difference'>シェアリングとのちがい</a></li>
+        <li><a href='./index.html#company'>会社情報</a></li>
+      </ul>
+    </div>
+    <div class='service-name'>
+      <h1 class="sitetitle">SPACE INCOME</h1>
+      <h1>空きスペースを新しく有効活用</h1>
+    </div>
+  </div>
 
+<div class="form_back">
   <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='https://spaceincome.jp/index.html';}"></iframe>
 
   <div class="responsive-align main">
@@ -105,7 +124,7 @@
         <div class="p-formGroup u-mb20">
           <label for="lock">上記の場所は、電子鍵を取り付けることは可能ですか？<span class="asterisk" >*</span></label>
           <p>カギは、原則弊社が電子ロックを取り付けいたします。</p>
-          <select class="selection" type="hidden" name="entry.2096814171" id="lock">
+          <select class="selection" type="hidden" name="entry.2096814171" id="lock" required>
             <option class="selection" value="">選択する</option>
             <option class="selection" data-value="すでに電子ロックで希望する場所や部屋を施錠できます。" value="すでに電子ロックで希望する場所や部屋を施錠できます。">すでに電子ロックで希望する場所や部屋を施錠できます。</option>
             <option class="selection" data-value="新たに鍵を取り付ければ、設置を希望する場所や部屋を施錠できます。" value="新たに鍵を取り付ければ、設置を希望する場所や部屋を施錠できます。">新たに鍵を取り付ければ、設置を希望する場所や部屋を施錠できます。</option>
@@ -117,7 +136,7 @@
         <!-- メンテナンス -->
         <div class="p-formGroup u-mb20">
           <label for="maintenance">メンテナンスのため、上記の設置場所にカギを持った社員が自由に出入りすることは可能ですか？<span class="asterisk" >*</span></label>
-          <select class="selection" type="hidden" name="entry.323696705" id="maintenance">
+          <select class="selection" type="hidden" name="entry.323696705" id="maintenance" required>
             <option class="selection" value="">選択する</option>
             <option class="selection" data-value="制限なく可能です。" value="制限なく可能です。">制限なく可能です。</option>
             <option class="selection" data-value="曜日や日付により制限があるが、可能です。" value="曜日や日付により制限があるが、可能です。">曜日や日付により制限があるが、可能です。</option>
@@ -127,7 +146,7 @@
         <!-- 電圧 -->
         <div class="p-formGroup u-mb20">
           <label for="Volt">使用可能な電圧（例：200Vなら「200」）<span class="asterisk" >*</span></label>
-          <select class="selection" type="hidden" name="entry.175936151" id="Volt">
+          <select class="selection" type="hidden" name="entry.175936151" id="Volt" required>
             <option class="selection" value="">選択する</option>
             <option class="selection" data-value="100" value="100">100</option>
             <option class="selection" data-value="200" value="200">200</option>
@@ -137,7 +156,7 @@
         <!-- 電流 -->
         <div class="p-formGroup u-mb20">
           <label for="Amp">使用可能な電流（例：30Aなら「30」））<span class="asterisk" >*</span></label>
-          <select class="selection" type="hidden" name="entry.994010223" id="Amp">
+          <select class="selection" type="hidden" name="entry.994010223" id="Amp" required>
             <option class="selection" value="">選択する</option>
             <option class="selection" data-value="20" value="20">20</option>
             <option class="selection" data-value="30" value="30">30</option>
@@ -152,7 +171,7 @@
         <!-- 光回線の敷設 -->
         <div class="p-formGroup u-mb20">
           <label for="Internet">NTTの光回線を設置場所または設置場所の部屋に引くことは可能ですか？<span class="asterisk" >*</span></label>
-          <select class="selection" type="hidden" name="entry.544154406" id="Internet">
+          <select class="selection" type="hidden" name="entry.544154406" id="Internet" required>
             <option class="selection" value="">選択する</option>
             <option class="selection" data-value="はい、可能です。" value="はい、可能です。">はい、可能です。</option>
             <option class="selection" data-value="いいえ。光回線を引くことはできません。" value="いいえ。光回線を引くことはできません。">いいえ。光回線を引くことはできません。</option>
@@ -164,7 +183,7 @@
         <div class="p-formGroup u-mb20 column">
           <label for="rentalFee">希望する月額家賃（例：3万円） <span class="asterisk" >*</span></label>
           <p>設置場所を貸し出すに当たり、ご希望の家賃をご記入ください。家賃が安い方が契約に結びつきやすくなります。</p>
-          <input type="text" id="rentalFee" name="entry.1996933019" >
+          <input type="text" id="rentalFee" name="entry.1996933019" required>
         </div>
         <!-- 物件タイプ -->
         <div class="p-formGroup u-mb20">
@@ -207,6 +226,8 @@
     </form>
   </div>
 
+</div>
+
   <div class='footer'>
     <div class='footer-items responsive-align'>
       <div class='terms'>
@@ -225,11 +246,92 @@
       <a>株式会社Zofuku</a>
     </div>
   </div>
-
+</section>
+<canvas id="canvas"></canvas>
 </body>
   <!-- form redirect -->
     <script type="text/javascript">
       var submitted = false;
       var currentURL = window.location.href;
     </script>
+  <!-- js -->
+  <script type="text/javascript">
+    var livePatern = {
+      canvas: null,
+      context: null,
+      cols: 0,
+      rows: 0,
+      colors: [252, 251, 249, 248, 241, 240],
+      triangleColors: [],
+      destColors: [],
+
+      init: function(){
+        this.canvas = document.getElementById('canvas');
+        this.context = this.canvas.getContext('2d');
+        this.cols = Math.floor(document.body.clientWidth / 24);
+        this.rows = Math.floor(document.body.clientHeight / 24) + 1;
+
+        this.canvas.width = document.body.clientWidth;
+        this.canvas.height = document.body.clientHeight;
+
+        this.drawBackground();
+        this.animate();
+      },
+
+      drawTriangle: function(x, y, color, inverted){
+        inverted = inverted == undefined ? false : inverted;
+
+        this.context.beginPath();
+        this.context.moveTo(x, y);
+        this.context.lineTo(inverted ? x - 22 : x + 22, y + 11);
+        this.context.lineTo(x, y + 22);
+        this.context.fillStyle = "rgb("+color+","+color+","+color+")";
+        this.context.fill();
+        this.context.closePath();
+      },
+
+      getColor: function(){
+        return this.colors[(Math.floor(Math.random() * 6))];
+      },
+
+      drawBackground: function(){
+        var eq = null;
+        var x = this.cols;
+        var destY = 0;
+        var color, y;
+
+        while(x--){
+          eq = x % 2;
+          y = this.rows;
+
+          while(y--){
+            destY = Math.round((y-0.5) * 24);
+
+            this.drawTriangle(x * 24 + 2, eq == 1 ? destY : y * 24, this.getColor());
+            this.drawTriangle(x * 24, eq == 1 ? destY  : y * 24, this.getColor(), true);
+          }
+        }
+      },
+
+      animate: function(){
+        var me = this;
+
+        var x = Math.floor(Math.random() * this.cols);
+        var y = Math.floor(Math.random() * this.rows);
+        var eq = x % 2;
+
+        if (eq == 1) {
+          me.drawTriangle(x * 24, Math.round((y-0.5) * 24) , this.getColor(), true);
+        } else {
+          me.drawTriangle(x * 24 + 2, y * 24, this.getColor());
+        }
+
+        setTimeout(function(){
+          me.animate.call(me);
+        }, 10);
+      },
+    };
+
+    !function(){livePatern.init();}()
+  </script>
 </html>
