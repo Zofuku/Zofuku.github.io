@@ -630,6 +630,9 @@ canvas{
     flex-direction: row-reverse;
   }
 }
+.space {
+  margin-bottom: 2em;
+}
 
 /* color */
 .marker {
