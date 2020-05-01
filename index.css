@@ -810,3 +810,9 @@ input[type="submit"] {
 .submit{
   margin: 2em;
 }
+
+.c0 li {
+  font-family: arial;
+  font-size: 14px;
+  margin-left: 5%;
+}

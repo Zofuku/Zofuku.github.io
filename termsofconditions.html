@@ -1,191 +1,249 @@
 <html>
-    <head>
-        <meta content="text/html; charset=UTF-8" http-equiv="content-type">
-        <style type="text/css">
-            ol {
-                margin: 0;
-                padding: 0
-            }
+<head>
+    <meta charset='utf-8'>
+    <link rel="icon" type="image/x-icon" href="https://ipfs.io/ipfs/QmYyV3BGk1HGNgHWSZNU2AwVvJRjBXoPbf6a8CGcyFanWn">
+    <link rel='stylesheet' type='text/css' href='index.css'>
+    <title>Space Income（スペースインカム） 空きスペースを活用した分散型データセンター誘致サービス</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name='description' content='SPACE INCOME(スペースインカム)は、空きスペースのオーナーと分散型データセンター事業者をマッチングするサービスです。物件情報を登録無料の当サービスに掲載いただくだけで、１坪だけでも有効活用できます。'>
+    <meta name="keyword" content="空き家,空き部屋,家賃,空きスペース,データセンター,分散型,活用,遊休スペース,賃貸,収入,ブロックチェーン,Zofuku,spaceincome,スペースインカム">
+    <meta name="author" content="Zofuku Inc.">
+    <!-- OGP -->
+    <meta property="og:locale" content="ja_JP">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="SPACE INCOME(スペース・インカム)">
+    <meta property="og:site_name" content="SPACE INCOME(スペースインカム)">
+    <meta property="og:description" content="SPACE INCOME(スペースインカム)は、空きスペースのオーナーと分散型データセンター事業者をマッチングするサービスです。物件情報を登録無料の当サービスに掲載いただくだけで、１坪だけでも有効活用できます。">
+    <meta property="og:url" content="https://spaceincome.jp/">
+    <meta property="og:image" content="https://ipfs.io/ipfs/QmYyV3BGk1HGNgHWSZNU2AwVvJRjBXoPbf6a8CGcyFanWn">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@zofuku">
+    <!-- facebook -->
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143199236-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-            table td,table th {
-                padding: 0
-            }
+      gtag('config', 'UA-143199236-2');
+    </script>
+    <style type="text/css">
+        ol {
+            margin: 0;
+            padding: 0
+        }
 
-            .c5 {
-                color: #000000;
-                font-weight: 400;
-                text-decoration: none;
-                vertical-align: baseline;
-                font-size: 26pt;
-                font-family: "Arial";
-                font-style: normal
-            }
+        table td,table th {
+            padding: 0
+        }
 
-            .c3 {
-                padding-top: 0pt;
-                padding-bottom: 3pt;
-                line-height: 1.15;
-                page-break-after: avoid;
-                orphans: 2;
-                widows: 2;
-                text-align: center
-            }
+        .c5 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 26pt;
+            font-family: "Arial";
+            font-style: normal
+        }
 
-            .c1 {
-                padding-top: 0pt;
-                padding-bottom: 0pt;
-                line-height: 1.15;
-                orphans: 2;
-                widows: 2;
-                text-align: left;
-                height: 11pt
-            }
+        .c3 {
+            padding-top: 0pt;
+            padding-bottom: 3pt;
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: center
+        }
 
-            .c0 {
-                color: #000000;
-                font-weight: 400;
-                text-decoration: none;
-                vertical-align: baseline;
-                font-size: 11pt;
-                font-family: "Arial";
-                font-style: normal
-            }
+        .c1 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+            height: 11pt
+        }
 
-            .c2 {
-                padding-top: 0pt;
-                padding-bottom: 0pt;
-                line-height: 1.15;
-                orphans: 2;
-                widows: 2;
-                text-align: left
-            }
+        .c0 {
+            color: #000000;
+            font-weight: 400;
+            text-decoration: none;
+            vertical-align: baseline;
+            font-size: 11pt;
+            font-family: "Arial";
+            font-style: normal
+        }
 
-            .c4 {
-                background-color: #ffffff;
-                max-width: 468pt;
-                padding: 72pt 72pt 72pt 72pt
-            }
+        .c2 {
+            padding-top: 0pt;
+            padding-bottom: 0pt;
+            line-height: 1.15;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
 
-            .title {
-                padding-top: 0pt;
-                color: #000000;
-                font-size: 26pt;
-                padding-bottom: 3pt;
-                font-family: "Arial";
-                line-height: 1.15;
-                page-break-after: avoid;
-                orphans: 2;
-                widows: 2;
-                text-align: left
-            }
+        .c4 {
+            background-color: #ffffff;
+            max-width: 80%;
+            padding: 72pt 72pt 72pt 72pt
+        }
 
-            .subtitle {
-                padding-top: 0pt;
-                color: #666666;
-                font-size: 15pt;
-                padding-bottom: 16pt;
-                font-family: "Arial";
-                line-height: 1.15;
-                page-break-after: avoid;
-                orphans: 2;
-                widows: 2;
-                text-align: left
-            }
+        .title {
+            padding-top: 0pt;
+            color: #000000;
+            font-size: 26pt;
+            padding-bottom: 3pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
 
-            li {
-                color: #000000;
-                font-size: 11pt;
-                font-family: "Arial"
-            }
+        .subtitle {
+            padding-top: 0pt;
+            color: #666666;
+            font-size: 15pt;
+            padding-bottom: 16pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
 
-            p {
-                margin: 0;
-                color: #000000;
-                font-size: 11pt;
-                font-family: "Arial"
-            }
+        /* li {
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial" */
+        }
 
-            h1 {
-                padding-top: 20pt;
-                color: #000000;
-                font-size: 20pt;
-                padding-bottom: 6pt;
-                font-family: "Arial";
-                line-height: 1.15;
-                page-break-after: avoid;
-                orphans: 2;
-                widows: 2;
-                text-align: left
-            }
+        p {
+            margin: 0;
+            color: #000000;
+            font-size: 11pt;
+            font-family: "Arial"
+        }
 
-            h2 {
-                padding-top: 18pt;
-                color: #000000;
-                font-size: 16pt;
-                padding-bottom: 6pt;
-                font-family: "Arial";
-                line-height: 1.15;
-                page-break-after: avoid;
-                orphans: 2;
-                widows: 2;
-                text-align: left
-            }
+        h1 {
+            padding-top: 20pt;
+            color: #000000;
+            font-size: 20pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
 
-            h3 {
-                padding-top: 16pt;
-                color: #434343;
-                font-size: 14pt;
-                padding-bottom: 4pt;
-                font-family: "Arial";
-                line-height: 1.15;
-                page-break-after: avoid;
-                orphans: 2;
-                widows: 2;
-                text-align: left
-            }
+        h2 {
+            padding-top: 18pt;
+            color: #000000;
+            font-size: 16pt;
+            padding-bottom: 6pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
 
-            h4 {
-                padding-top: 14pt;
-                color: #666666;
-                font-size: 12pt;
-                padding-bottom: 4pt;
-                font-family: "Arial";
-                line-height: 1.15;
-                page-break-after: avoid;
-                orphans: 2;
-                widows: 2;
-                text-align: left
-            }
+        h3 {
+            padding-top: 16pt;
+            color: #434343;
+            font-size: 14pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
 
-            h5 {
-                padding-top: 12pt;
-                color: #666666;
-                font-size: 11pt;
-                padding-bottom: 4pt;
-                font-family: "Arial";
-                line-height: 1.15;
-                page-break-after: avoid;
-                orphans: 2;
-                widows: 2;
-                text-align: left
-            }
+        h4 {
+            padding-top: 14pt;
+            color: #666666;
+            font-size: 12pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
 
-            h6 {
-                padding-top: 12pt;
-                color: #666666;
-                font-size: 11pt;
-                padding-bottom: 4pt;
-                font-family: "Arial";
-                line-height: 1.15;
-                page-break-after: avoid;
-                font-style: italic;
-                orphans: 2;
-                widows: 2;
-                text-align: left
-            }
-        </style>
-    </head>
-    <body class="c4">
+        h5 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            orphans: 2;
+            widows: 2;
+            text-align: left
+        }
+
+        h6 {
+            padding-top: 12pt;
+            color: #666666;
+            font-size: 11pt;
+            padding-bottom: 4pt;
+            font-family: "Arial";
+            line-height: 1.15;
+            page-break-after: avoid;
+            font-style: italic;
+            orphans: 2;
+            widows: 2;
+            text-align: left;
+          }
+        .top {
+            height: 100px;
+          }
+        }
+    </style>
+</head>
+<body>
+  <div class='top align-vert'>
+    <div class='menubar'>
+      <ul class='menu'>
+        <li><a href='./index.html#service'>サービスの特徴</a></li>
+        <li><a href='./index.html#example'>導入事例</a></li>
+        <li><a href='./index.html#function'>開設まで３ステップ</a></li>
+        <li><a href='./index.html#condition'>設置条件</a></li>
+        <li><a href='./index.html#qanda'>Q＆A</a></li>
+        <li><a href='./index.html#difference'>シェアリングとのちがい</a></li>
+        <li><a href='./index.html#company'>会社情報</a></li>
+      </ul>
+    </div>
+
+    <ul class='menu-mobile'>
+      <li><a href='./index.html#service'>サービス</a></li>
+      <!-- <li><a href='#example'>導入事例</a></li> -->
+      <li><a href='./index.html#function'>開設まで３ステップ</a></li>
+      <li><a href='./index.html#condition'>設置条件</a></li>
+      <li><a href='./index.html#qanda'>FAQ</a></li>
+      <li><a href='./index.html#difference'>シェアとの違い</a></li>
+    </ul>
+  </div>
+
+    <div class="c4">
         <p class="c3 title" id="h.497heu2iy4kk">
             <span class="c5">利用規約</span>
         </p>
@@ -689,6 +747,20 @@
         <p class="c1">
             <span class="c0"></span>
         </p>
+    </div>
+    <div class='footer'>
+      <div class='footer-items responsive-align'>
+        <div class='terms'>
+          <a href='termsofconditions.html' target="_blank" rel="noopener noreferrer">利用規約</a>
+        </div>
+        <div class='privacy'>
+          <a href="privacypolicy.html" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
+        </div>
+      </div>
+
+      <div class="company-name">
+        <a>株式会社Zofuku</a>
+      </div>
     </div>
   </body>
 </html>
