@@ -135,11 +135,11 @@
             <p>カギは、原則弊社が電子ロックを取り付けいたします。</p>
             <select class="selection" type="hidden" name="entry.2096814171" id="lock" required>
               <option class="selection" value="">選択する</option>
-              <option class="selection" data-value="すでに電子ロックで希望する場所や部屋を施錠できます。" value="すでに電子ロックで希望する場所や部屋を施錠できます。">すでに電子ロックで希望する場所や部屋を施錠できます。</option>
-              <option class="selection" data-value="新たに鍵を取り付ければ、設置を希望する場所や部屋を施錠できます。" value="新たに鍵を取り付ければ、設置を希望する場所や部屋を施錠できます。">新たに鍵を取り付ければ、設置を希望する場所や部屋を施錠できます。</option>
-              <option class="selection" data-value="設置場所のみの施錠はできないが、建物全体を施錠できます。" value="設置場所のみの施錠はできないが、建物全体を施錠できます。">設置場所のみの施錠はできないが、建物全体を施錠できます。</option>
-              <option class="selection" data-value="設置できません。だれでも出入りできます。" value="設置できません。だれでも出入りできます。">設置できません。だれでも出入りできます。</option>
-              <option class="selection" data-value="わかりません。" value="わかりません。">わかりません。</option>
+              <option class="selection" data-value="すでに電子ロックで希望する場所や部屋を施錠できます。" value="すでに電子ロックで希望する場所や部屋を施錠できます。">既に電子ロックあり</option>
+              <option class="selection" data-value="新たに鍵を取り付ければ、設置を希望する場所や部屋を施錠できます。" value="新たに鍵を取り付ければ、設置を希望する場所や部屋を施錠できます。">取り付ければ施錠可能</option>
+              <option class="selection" data-value="設置場所のみの施錠はできないが、建物全体を施錠できます。" value="設置場所のみの施錠はできないが、建物全体を施錠できます。">建物全体のみ可能</option>
+              <option class="selection" data-value="設置できません。だれでも出入りできます。" value="設置できません。だれでも出入りできます。">設置できません</option>
+              <option class="selection" data-value="わかりません。" value="わかりません。">わかりません</option>
             </select>
           </div>
           <!-- メンテナンス -->
@@ -147,9 +147,9 @@
             <label for="maintenance">メンテナンスのため、上記の設置場所にカギを持った社員が自由に出入りすることは可能ですか？<span class="asterisk" >*</span></label>
             <select class="selection" type="hidden" name="entry.323696705" id="maintenance" required>
               <option class="selection" value="">選択する</option>
-              <option class="selection" data-value="制限なく可能です。" value="制限なく可能です。">制限なく可能です。</option>
-              <option class="selection" data-value="曜日や日付により制限があるが、可能です。" value="曜日や日付により制限があるが、可能です。">曜日や日付により制限があるが、可能です。</option>
-              <option class="selection" data-value="わかりません。" value="わかりません。">わかりません。</option>
+              <option class="selection" data-value="制限なく可能です。" value="制限なく可能です。">制限なく可能</option>
+              <option class="selection" data-value="曜日や日付により制限があるが、可能です。" value="曜日や日付により制限があるが、可能です。">制限はあるが可能</option>
+              <option class="selection" data-value="わかりません。" value="わかりません。">わかりません</option>
             </select>
           </div>
           <!-- 電圧 -->
@@ -182,9 +182,9 @@
             <label for="Internet">NTTの光回線を設置場所または設置場所の部屋に引くことは可能ですか？<span class="asterisk" >*</span></label>
             <select class="selection" type="hidden" name="entry.544154406" id="Internet" required>
               <option class="selection" value="">選択する</option>
-              <option class="selection" data-value="はい、可能です。" value="はい、可能です。">はい、可能です。</option>
-              <option class="selection" data-value="いいえ。光回線を引くことはできません。" value="いいえ。光回線を引くことはできません。">いいえ。光回線を引くことはできません。</option>
-              <option class="selection" data-value="部屋ではなく、建物全体にのみ引くことが可能です。" value="部屋ではなく、建物全体にのみ引くことが可能です。">部屋ではなく、建物全体にのみ引くことが可能です。</option>
+              <option class="selection" data-value="はい、可能です。" value="はい、可能です。">可能です</option>
+              <option class="selection" data-value="いいえ。光回線を引くことはできません。" value="いいえ。光回線を引くことはできません。">いいえ、できません</option>
+              <option class="selection" data-value="部屋ではなく、建物全体にのみ引くことが可能です。" value="部屋ではなく、建物全体にのみ引くことが可能です。">建物全体にのみ可能</option>
               <option class="selection" data-value="わかりません。" value="わかりません。">わかりません。</option>
             </select>
           </div>
@@ -216,13 +216,13 @@
           </div>
           <!-- 構造 -->
           <div class="p-formGroup u-mb20">
-            <label for="structure">物件タイプ</label>
+            <label for="structure">構造</label>
             <select class="selection" type="hidden" class="" name="entry.76897094" id="structure">
               <option class="selection" value="未選択">選択する</option>
               <option class="selection" data-value="鉄筋コンクリート造（RC造）" value="鉄筋コンクリート造（RC造）">鉄筋コンクリート造（RC造）</option>
               <option class="selection" data-value="鉄骨造（S造）" value="鉄骨造（S造）">鉄骨造（S造）</option>
               <option class="selection" data-value="鉄骨鉄筋コンクリート造（SRC造）" value="鉄骨鉄筋コンクリート造（SRC造）">鉄骨鉄筋コンクリート造（SRC造）</option>
-              <option class="selection" data-value="わかりません。" value="わかりません。">わかりません。</option>
+              <option class="selection" data-value="わかりません。" value="わかりません。">わかりません</option>
               <option class="selection" data-value="その他" value="その他">その他</option>
             </select>
           </div>
