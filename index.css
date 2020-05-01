@@ -498,7 +498,7 @@ div#form {
   line-height: 1.7;
 }
 div#form {
-  background-color: #fdfdfd;
+  /* background-color: #fdfdfd; */
 }
 div#company {
   background-color: #F0F5EC;
