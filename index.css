@@ -164,12 +164,14 @@ div.top:before {
   flex-basis: 45%;
   line-height: 2em;
 }
-
+.d_title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 .type {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 15px;
-  margin-top: 10px;
+
 }
 
 .require {
@@ -565,8 +567,8 @@ canvas{
   width: 100%;
 }
 .main {
-  margin-left: 10%;
-  margin-right: 10%;
+  padding-left: 10%;
+  padding-right: 10%;
 
 }
 .form_back{
@@ -652,6 +654,114 @@ canvas{
 
 }
 
+.space {
+  margin-bottom: 2em;
+}
+
+/* color */
+.marker {
+  background:linear-gradient(transparent 75%, #fff799 75%);
+  font-weight: 600;
+}
+.marker-b {
+  background:linear-gradient(transparent 75%, #bce2e8  75%);
+  font-weight: bolder;
+}
+
+
+/* form */
+.formTitle {
+  margin-top: 2em;
+  width: 100%;
+}
+.need {
+  font-size: 0.7em;
+}
+label {
+  font-weight: bold;
+}
+.formContent .p-formGroup{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.p-formGroup {
+  margin-bottom: 2em;
+}
+.p-formGroup p {
+  font-size: 0.8em;
+  margin-left: 1em;
+}
+.area {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #ccc;
+  height: 150px;
+  padding: 0.7em;
+  font-size: 1em;
+  font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  letter-spacing: 1.5px;
+  color: #222222;
+  letter-spacing: 1.5px;
+}
+
+.asterisk {
+  color: rgba(255, 147, 147, 0.85);
+}
+input[type="text"] {
+  -webkit-appearance: none;
+  border: 1px solid #ccc;
+  height: 30px;
+  width: 100%;
+  padding: 0em 0.7em;;
+  font-size: 1em;
+  font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  letter-spacing: 1.5px;
+  color: #222222;
+}
+.selection {
+  background-color: #fdfdfd;
+  border: 1px solid #ccc;
+  height: 30px;
+  width: 100%;
+  padding: 0em 0.7em;;
+  font-size: 1em;
+  font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  letter-spacing: 1.5px;
+  color: #222222;
+}
+input[type="submit"] {
+  -webkit-appearance: none;
+}
+.submit{
+  margin: 2em;
+}
+
+/* policy */
+.deco_list li {
+  font-family: arial;
+  letter-spacing: 0em;
+  margin-left: 5%;
+  line-height: 1.2;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: black;
+}
+.t {
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+.policy {
+  margin: 2em;
+}
+.main_policy {
+  padding-bottom: 2em;
+  padding-top: 1em;
+  background-color: #F0F5EC;
+}
+
 /* 〜ー 以上はここを読み込む */
 @media screen and (min-width: 780px) {
 
@@ -724,95 +834,13 @@ canvas{
   .reverse {
     flex-direction: row-reverse;
   }
-}
-.space {
-  margin-bottom: 2em;
-}
-
-/* color */
-.marker {
-  background:linear-gradient(transparent 75%, #fff799 75%);
-  font-weight: 600;
-}
-.marker-b {
-  background:linear-gradient(transparent 75%, #bce2e8  75%);
-  font-weight: bolder;
-}
-
-
-/* form */
-.formTitle {
-  margin-top: 2em;
-  width: 100%;
-}
-.need {
-  font-size: 0.7em;
-}
-label {
-  font-weight: bold;
-
-}
-.formContent .p-formGroup{
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-.p-formGroup {
-  margin-bottom: 2em;
-}
-.p-formGroup p {
-  font-size: 0.8em;
-  margin-left: 1em;
-}
-.area {
-  width: 80%;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  border: 1px solid #ccc;
-  height: 150px;
-  padding: 0.7em;
-  font-size: 1em;
-  font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-  letter-spacing: 1.5px;
-  color: #222222;
-  letter-spacing: 1.5px;
-}
-
-.asterisk {
-  color: rgba(255, 147, 147, 0.85);
-}
-input[type="text"] {
-  -webkit-appearance: none;
-  border: 1px solid #ccc;
-  height: 30px;
-  width: 80%;
-  padding: 0em 0.7em;;
-  font-size: 1em;
-  font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-  letter-spacing: 1.5px;
-  color: #222222;
-}
-.selection {
-  background-color: #fdfdfd;
-  border: 1px solid #ccc;
-  height: 30px;
-  width: 80%;
-  padding: 0em 0.7em;;
-  font-size: 1em;
-  font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-  letter-spacing: 1.5px;
-  color: #222222;
-}
-input[type="submit"] {
-  -webkit-appearance: none;
-}
-.submit{
-  margin: 2em;
-}
-
-.c0 li {
-  font-family: arial;
-  font-size: 14px;
-  margin-left: 5%;
+  .selection {
+    width: 80%;
+  }
+  .area {
+    width: 80%;
+  }
+  input[type="text"]{
+    width: 60%;
+  }
 }
