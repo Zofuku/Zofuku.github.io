@@ -34,29 +34,136 @@
   </script>
 </head>
   <body>
-
-    <div class="title">
-      <h2>受付完了</h2>
-
-    </div>
-
-    <div class='footer'>
-      <div class='footer-items responsive-align'>
-        <div class='terms'>
-          <a href='termsofconditions.html' target="_blank" rel="noopener noreferrer">利用規約</a>
+    <section id="body">
+      <div class='top align-vert' style="height:200px">
+        <div class='menubar'>
+          <ul class='menu'>
+            <li><a href='./index.html#service'>サービスの特徴</a></li>
+            <li><a href='./index.html#example'>導入事例</a></li>
+            <li><a href='./index.html#function'>開設まで３ステップ</a></li>
+            <li><a href='./index.html#condition'>設置条件</a></li>
+            <li><a href='./index.html#qanda'>Q＆A</a></li>
+            <li><a href='./index.html#difference'>他社とのちがい</a></li>
+            <li><a href='./index.html#company'>会社情報</a></li>
+          </ul>
         </div>
-        <div class='privacy'>
-          <a href="privacypolicy.html" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
+        <div class='service-name' style="height:83%">
+            <a href="./index.html"><img src="https://ipfs.io/ipfs/QmbtdA9h25tcJ2wx15CdmBX2gBUBN8bviBhhZMnz8F6BUu" alt="" width="240px"></a>
+          <h2>空きスペースを新しく有効活用</h2>
+        </div>
+
+        <ul class='menu-mobile'>
+          <li><a href='./index.html#service'>サービス</a></li>
+          <li><a href='./index.html#function'>開設３ステップ</a></li>
+          <li><a href='./index.html#condition'>設置条件</a></li>
+          <li><a href='./index.html#qanda'>Q＆A</a></li>
+          <li><a href='./index.html#difference'>他社との違い</a></li>
+        </ul>
+      </div>
+
+      <div class="thankyou">
+        <div class="title">
+          <h2>受付完了</h2>
+
         </div>
       </div>
-      <!-- <div class='footer-items'>
-        <div class='bg-twitter sns-icon'></div>
-        <div class='bg-facebook sns-icon'></div>
-        <div class='bg-instagram sns-icon'></div>
-      </div> -->
-      <div class="company-name">
-        <a>株式会社Zofuku Inc.</a>
+
+
+      <div class='footer'>
+        <div class='footer-items responsive-align'>
+          <div class='terms'>
+            <a href='termsofconditions.html' target="_blank" rel="noopener noreferrer">利用規約</a>
+          </div>
+          <div class='privacy'>
+            <a href="privacypolicy.html" target="_blank" rel="noopener noreferrer">プライバシーポリシー</a>
+          </div>
+        </div>
+        <div class="company-name">
+          <a>株式会社Zofuku Inc.</a>
+        </div>
       </div>
-    </div>
+
+    </section>
+    <canvas id="canvas"></canvas>
   </body>
+  <!-- backjs -->
+  <script type="text/javascript">
+    var livePatern = {
+      canvas: null,
+      context: null,
+      cols: 0,
+      rows: 0,
+      colors: [252, 251, 249, 248, 241, 240],
+      triangleColors: [],
+      destColors: [],
+
+      init: function(){
+        this.canvas = document.getElementById('canvas');
+        this.context = this.canvas.getContext('2d');
+        this.cols = Math.floor(document.body.clientWidth / 24);
+        this.rows = Math.floor(document.body.clientHeight / 24) + 1;
+
+        this.canvas.width = document.body.clientWidth;
+        this.canvas.height = document.body.clientHeight;
+
+        this.drawBackground();
+        this.animate();
+      },
+
+      drawTriangle: function(x, y, color, inverted){
+        inverted = inverted == undefined ? false : inverted;
+
+        this.context.beginPath();
+        this.context.moveTo(x, y);
+        this.context.lineTo(inverted ? x - 22 : x + 22, y + 11);
+        this.context.lineTo(x, y + 22);
+        this.context.fillStyle = "rgb("+color+","+color+","+color+")";
+        this.context.fill();
+        this.context.closePath();
+      },
+
+      getColor: function(){
+        return this.colors[(Math.floor(Math.random() * 6))];
+      },
+
+      drawBackground: function(){
+        var eq = null;
+        var x = this.cols;
+        var destY = 0;
+        var color, y;
+
+        while(x--){
+          eq = x % 2;
+          y = this.rows;
+
+          while(y--){
+            destY = Math.round((y-0.5) * 24);
+
+            this.drawTriangle(x * 24 + 2, eq == 1 ? destY : y * 24, this.getColor());
+            this.drawTriangle(x * 24, eq == 1 ? destY  : y * 24, this.getColor(), true);
+          }
+        }
+      },
+
+      animate: function(){
+        var me = this;
+
+        var x = Math.floor(Math.random() * this.cols);
+        var y = Math.floor(Math.random() * this.rows);
+        var eq = x % 2;
+
+        if (eq == 1) {
+          me.drawTriangle(x * 24, Math.round((y-0.5) * 24) , this.getColor(), true);
+        } else {
+          me.drawTriangle(x * 24 + 2, y * 24, this.getColor());
+        }
+
+        setTimeout(function(){
+          me.animate.call(me);
+        }, 10);
+      },
+    };
+
+    !function(){livePatern.init();}()
+  </script>
 </html>
