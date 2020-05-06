@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   color: hsl(0, 0%, 40%);
-  font-size: 15px;
+  font-size: 16px;
   font-family: Helvetica Neue,'Lato', 'Noto Sans JP', 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
   letter-spacing: 1.5px;
   line-height: 2.13;
@@ -264,6 +264,19 @@ ul.menu-mobile a {
   max-width: 75%;
   margin: 10px 0 ;
 }
+.service-desc_data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 75%;
+  margin: 34px 20px 0 0 ;
+  padding: 1.5em 2em;;
+  background-color: rgba(188, 226, 232, 0.1);
+  /* border: 3px solid #bce2e8; */
+}
+.service-desc_data h3 {
+  text-align: center;
+}
 .service-image {
  align-self:center;
 }
@@ -461,7 +474,7 @@ ul.menu-mobile li :active {
     font-weight: 600;
     position: relative;
     width: 300px;
-    height: 60px;
+    height: 56px;
     text-align: center;
     cursor: default;
   }
@@ -788,11 +801,23 @@ input[type="submit"] {
     justify-content: center;
     display: flex;
   }
-
   .service-desc h3 {
     text-align: center;
   }
   .service-desc p {
+    text-align: left;
+  }
+  .service-desc_data {
+    text-align: center;
+    max-width: 60%;
+    padding-bottom: 1.8em;
+    justify-content: center;
+    display: flex;
+  }
+  .service-desc_data h3 {
+    text-align: center;
+  }
+  .service-desc_data p {
     text-align: left;
   }
 
