@@ -336,6 +336,23 @@ ul.menu-mobile a {
 .company-item {
   margin: 10px;
 }
+.flow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 80%;
+  margin: 4em 0em 0em 0em;
+  padding: 1.5em 2em;;
+  /* background-color: rgba(188, 226, 232, 0.1); */
+}
+.flow_chart {
+  margin: 2em 0 0 0;
+}
+.flow_chart_2 {
+  margin: 2em 0 0 0;
+}
+
+
 
 /* Images Icons */
 .sns-icon {
@@ -666,6 +683,9 @@ canvas{
     color: #222222;
     letter-spacing: 1.5px;
   }
+  .flow_chart {
+    display: none;
+  }
 
 }
 
@@ -869,5 +889,8 @@ input[type="submit"] {
   }
   input[type="text"]{
     width: 60%;
+  }
+  .flow_chart_2 {
+    display: none;
   }
 }
