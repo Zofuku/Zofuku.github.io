@@ -353,7 +353,6 @@ ul.menu-mobile a {
 }
 
 
-
 /* Images Icons */
 .sns-icon {
   margin-left: 12px;
@@ -798,7 +797,7 @@ input[type="submit"] {
 }
 
 /* 〜ー 以上はここを読み込む */
-@media screen and (min-width: 780px) {
+@media screen and (min-width: 640px) {
 
   h1 {
     font-size: 26px;
