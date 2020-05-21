@@ -351,6 +351,12 @@ ul.menu-mobile a {
 .flow_chart_2 {
   margin: 2em 0 0 0;
 }
+.online {
+  background-color: #fdfdfd;
+}
+.googlemeet {
+  margin: 1em 10%;
+}
 
 
 /* Images Icons */
