@@ -118,9 +118,11 @@ div.top:before {
 }
 .menubar {
   display: flex;
-  justify-content: flex-end;
-  margin-right: 20px;
-  height: 20%;
+  justify-content:center;
+  width: 100%;
+  position:fixed;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(3px);
 }
 .service-name {
   display: flex;
@@ -129,6 +131,7 @@ div.top:before {
   align-items:center;
   height: 50%;
   width: 100%;
+  margin-top: 60px;
 }
 
 .apply-btn {
@@ -162,7 +165,7 @@ div.top:before {
   margin-right: 10px;
   padding: 20px;
   background-color: #fdfdfd;
-  box-shadow: 2px 4px 16px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
   flex-basis: 45%;
   line-height: 2em;
 }
@@ -182,8 +185,11 @@ div.top:before {
   margin-left: 20px;
   margin-right: 20px;
   padding: 20px;
-  box-shadow: 2px 4px 16px rgba(0,0,0,0.2);
+  box-shadow: 2px 4px 8px rgba(0,0,0,0.2);
   width: 80%;
+}
+.require:hover {
+  transform: translate(0%,-2%);
 }
 .name {
   font-weight: bold;
@@ -493,7 +499,7 @@ ul.menu-mobile li :active {
     margin: 0;
     border: 0;
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     position: relative;
     width: 300px;
     height: 56px;
